@@ -63,7 +63,7 @@ describe("remainders", () => {
   let expectedOutput1 = [ 2, 0, -1, 0 ]
   let hodgepodge2 = [5, "Hola", 43, -34, "greetings", true]
   let expectedOutput2 = [ 2, 1, -1 ]
-  it("functionFunction", () => {
+  it("takes in a mixed data array and returns an array of only the REMAINDERS of the numbers when divided by 3", () => {
     expect(remainders(hodgepodge1)).toEqual(expectedOutput1)
     expect(remainders(hodgepodge2)).toEqual(expectedOutput2)
   })
@@ -89,7 +89,7 @@ describe("cubeAndSum", () => {
   let expectedOutput1 = 99
   let cubeAndSum2 = [0, 5, 10]
   let expectedOutput2 = 1125
-  it("functionFunction", () => {
+  it("takes in an array of numbers and returns the sum of all the numbers cubed.", () => {
     expect(cubeAndSum(cubeAndSum1)).toEqual(expectedOutput1)
     expect(cubeAndSum(cubeAndSum2)).toEqual(expectedOutput2)
   })
