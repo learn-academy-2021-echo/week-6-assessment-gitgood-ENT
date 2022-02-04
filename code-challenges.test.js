@@ -33,7 +33,7 @@ describe("descriptor", () => {
     { name: "arthur dent", occupation: "a radio employee" }
   ]
   let expectedOutput = ["Ford Prefect is a hitchhiker.", "Zaphod Beeblebrox is president of the galaxy.", "Arthur Dent is a radio employee."]
-  it("functionFunction", () => {
+  it("takes in an array of objects and returns an array with a sentence about each person with their name capitalized", () => {
     expect(descriptor(people)).toEqual(expectedOutput)
   })
 })
